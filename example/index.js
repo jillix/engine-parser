@@ -1,5 +1,8 @@
+// Dpeendencies
 var EngineParserGen = require("../lib");
 
-var epg = new EngineParserGen(__dirname + "/composition");
-
-
+// "test-app" should be a valid Engine app in $ENGINE_APPS dir
+var epg = new EngineParserGen("test-app");
+epg.renameInstance("A", "B", function () {
+    debugger
+});

@@ -1,0 +1,25 @@
+{
+  "name": "engine-parser-gen",
+  "version": "1.0.0",
+  "description": "Parse and generate Engine compositions using helper functions.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jillix/engine-parser-gen.git"
+  },
+  "keywords": [
+    "engine",
+    "jillix"
+  ],
+  "author": "jillix <contact@jillix.com> (http://jillix.com)",
+  "bugs": {
+    "url": "https://github.com/jillix/engine-parser-gen/issues"
+  },
+  "homepage": "https://github.com/jillix/engine-parser-gen#readme"
+}
