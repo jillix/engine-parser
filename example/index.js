@@ -11,6 +11,7 @@ epg.renameInstance("layout", "another_layout", (err) => {
     if (err) {
         return console.log(err);
     }
+    debugger
     epg.save(function (err) {
         console.log(err || "Saved");
     });
