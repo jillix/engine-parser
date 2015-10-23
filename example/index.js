@@ -7,11 +7,14 @@ var epg = new EngineParserGen("test-app");
 //    debugger
 //});
 
-epg.renameInstance("layout", "another_layout", (err) => {
+epg.renameInstance("layout", "another_layout", (err, toBeSaved, toBeDeleted) => {
     if (err) {
         return console.log(err);
     }
-    epg.save(function (err) {
+    epg.save({
+        delete: toBeDeleted
+      , save: toBeSaved
+    }, function (err) {
         console.log(err || "Saved");
     });
 });
