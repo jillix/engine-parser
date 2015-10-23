@@ -7,7 +7,7 @@ var epg = new EngineParserGen("test-app");
 //    debugger
 //});
 
-epg.renameInstance("A", "B", (err) => {
+epg.renameInstance("layout", "another_layout", (err) => {
     if (err) {
         return console.log(err);
     }
