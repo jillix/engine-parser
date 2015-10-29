@@ -1,4 +1,4 @@
-// Dpeendencies
+// Dpendencies
 var EngineParserGen = require("../lib");
 
 // Initialize the parser-generator
@@ -11,10 +11,8 @@ epg.renameInstance("layout", "another_layout", (err, toBeSaved, toBeDeleted) => 
     // Save the changes on the disk
     epg.save({
 
-        // delete these ones
+        // Delete these ones
         delete: toBeDeleted
-        // delete: "layout"
-        // delete: { layout: true, router: true }
 
         // Override these ones
       , save: toBeSaved
