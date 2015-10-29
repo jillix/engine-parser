@@ -1,18 +1,22 @@
 // Dpeendencies
 var EngineParserGen = require("../lib");
 
-// "test-app" should be a valid Engine app in $ENGINE_APPS dir
+// Initialize the parser-generator
 var epg = new EngineParserGen("test-app");
-//epg.parse(function (err, parsed) {
-//    debugger
-//});
 
+// Rename layout->another_layout
 epg.renameInstance("layout", "another_layout", (err, toBeSaved, toBeDeleted) => {
-    if (err) {
-        return console.log(err);
-    }
+    if (err) { return console.log(err); }
+
+    // Save the changes on the disk
     epg.save({
+
+        // delete these ones
         delete: toBeDeleted
+        // delete: "layout"
+        // delete: { layout: true, router: true }
+
+        // Override these ones
       , save: toBeSaved
     }, function (err) {
         console.log(err || "Saved");
