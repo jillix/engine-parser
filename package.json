@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jillix/engine-parser-gen/issues"
   },
-  "homepage": "https://github.com/jillix/engine-parser-gen#readme"
+  "homepage": "https://github.com/jillix/engine-parser-gen#readme",
+  "dependencies": {
+    "engine-tools": "^1.26.0"
+  }
 }
