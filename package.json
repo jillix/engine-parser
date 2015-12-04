@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/jillix/engine-parser-gen#readme",
   "dependencies": {
-    "engine-tools": "^1.26.0"
+    "engine-tools": "^1.26.0",
+    "ul": "^5.2.0"
   }
 }
