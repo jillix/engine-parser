@@ -1,8 +1,10 @@
 // Dpendencies
-var EngineParserGen = require("../lib");
+var EngineParser = require("../lib");
 
 // Initialize the parser-generator
-var epg = new EngineParserGen("test-app");
+var ep = new EngineParser(`${__dirname}/engine-test`);
+
+ep
 
 // Rename layout->another_layout
 epg.renameInstance("layout", "another_layout", (err, toBeSaved, toBeDeleted) => {
