@@ -18,6 +18,7 @@
     "jillix"
   ],
   "author": "jillix <contact@jillix.com> (http://jillix.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jillix/engine-parser-gen/issues"
   },
