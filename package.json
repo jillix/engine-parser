@@ -24,6 +24,7 @@
   "homepage": "https://github.com/jillix/engine-parser-gen#readme",
   "dependencies": {
     "engine-tools": "^1.26.0",
+    "err": "^1.1.0",
     "iterate-object": "^1.3.0",
     "same-time": "^2.3.0",
     "set-or-get": "^1.2.0",
