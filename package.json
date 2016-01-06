@@ -1,5 +1,5 @@
 {
-  "name": "engine-parser-gen",
+  "name": "engine-parser",
   "version": "1.0.0",
   "description": "Parse and generate Engine compositions using helper functions.",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jillix/engine-parser-gen.git"
+    "url": "git+https://github.com/jillix/engine-parser.git"
   },
   "keywords": [
     "engine",
@@ -20,10 +20,11 @@
   "author": "jillix <contact@jillix.com> (http://jillix.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jillix/engine-parser-gen/issues"
+    "url": "https://github.com/jillix/engine-parser/issues"
   },
-  "homepage": "https://github.com/jillix/engine-parser-gen#readme",
+  "homepage": "https://github.com/jillix/engine-parser#readme",
   "dependencies": {
+    "engine-app": "^1.0.0",
     "engine-tools": "^1.26.0",
     "err": "^1.1.0",
     "iterate-object": "^1.3.0",
