@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/jillix/engine-parser#readme",
   "dependencies": {
+    "deffy": "^2.2.0",
     "engine-app": "^1.0.0",
+    "engine-flow-types": "^1.1.0",
+    "enny": "^1.1.0",
     "err": "^1.1.0",
     "iterate-object": "^1.3.0",
     "same-time": "^2.3.0",
