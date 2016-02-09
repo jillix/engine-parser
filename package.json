@@ -27,7 +27,7 @@
     "deffy": "^2.2.0",
     "engine-app": "jillix/engine-app",
     "engine-flow-types": "jillix/engine-flow-types",
-    "enny": "^1.1.0",
+    "enny": "jillix/enny",
     "err": "^1.1.0",
     "iterate-object": "^1.3.0",
     "same-time": "^2.3.0",
