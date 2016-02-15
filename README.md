@@ -1,6 +1,6 @@
-# engine-parser
+# engine-parser [![Version](https://img.shields.io/npm/v/engine-parser.svg)](https://www.npmjs.com/package/engine-parser) [![Downloads](https://img.shields.io/npm/dt/engine-parser.svg)](https://www.npmjs.com/package/engine-parser)
 
-Parse and generate Engine compositions using helper functions.
+> Parse and generate Engine compositions using helper functions.
 
 ## Installation
 
@@ -78,6 +78,8 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`engine-builder`](https://github.com/IonicaBizau/engine-parser) by jillix
 
 ## License
 
